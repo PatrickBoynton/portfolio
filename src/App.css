@@ -13,4 +13,8 @@ img{
 .my-pic{
   width: 40%;
 }
+.education{
+  border: 1px solid #eee;
+  border-radius: 6px;
+}
 
