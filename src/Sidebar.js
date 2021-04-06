@@ -1,4 +1,6 @@
 import {Component} from 'react';
+import Education from "./Education";
+import Footer from "./Footer";
 
 class Sidebar extends Component{
     render() {
@@ -8,6 +10,8 @@ class Sidebar extends Component{
 
                 <img className="rounded-circle my-pic mt-3 mb-3" src={`${process.env.PUBLIC_URL}/person-placeholder.jpeg`} alt="Me"/>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad deleniti dolorum facere facilis, perspiciatis porro quam quas sapiente sit!</p>
+                <Education/>
+                <Footer/>
             </div>
         );
     }
