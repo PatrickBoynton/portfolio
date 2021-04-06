@@ -3,16 +3,21 @@ import {Component} from "react";
 import Portfolio from "./Portfolio";
 import Aside from "./Aside";
 import Sidebar from "./Sidebar";
+import Footer from "./Footer";
 
 class App extends Component {
     render() {
         return (
             <>
-                <Sidebar/>
-                <Portfolio/>
-                <Aside/>
+                <div className="row">
+                    <Sidebar/>
+                    <Portfolio/>
+                    <Aside/>
+                </div>
+                <Footer/>;
             </>
-        );
+        )
+            ;
     }
 }
 
