@@ -3,7 +3,6 @@ import {Component} from "react";
 import Portfolio from "./Portfolio";
 import Aside from "./Aside";
 import Sidebar from "./Sidebar";
-import Footer from "./Footer";
 
 class App extends Component {
     render() {
@@ -14,7 +13,6 @@ class App extends Component {
                     <Portfolio/>
                     <Aside/>
                 </div>
-                <Footer/>;
             </>
         )
             ;
