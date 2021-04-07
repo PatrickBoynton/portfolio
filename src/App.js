@@ -1,16 +1,12 @@
 import "./App.css";
 import {Component} from "react";
-import Portfolio from "./Portfolio";
-import Sidebar from "./Sidebar";
-import Footer from "./Footer";
+import Navbar from "./components/Navbar";
 
 class App extends Component {
     render() {
         return (
             <>
-                <Sidebar/>
-                <Portfolio/>
-                <Footer/>
+                <Navbar/>
             </>
         )
             ;
