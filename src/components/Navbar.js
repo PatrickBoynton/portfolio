@@ -7,7 +7,6 @@ class Navbar extends Component {
                 <ul className="nav navbar-collapse justify-content-center">
                     <li><a href="#">About</a></li>
                     <li className="pl-5"><a href="#">My Work</a></li>
-                    <li className="pl-5"><a href="#">Contact</a></li>
                     <li className="pl-5"><a href="#">Resume</a></li>
                 </ul>
             </nav>
