@@ -9,7 +9,8 @@ class Portfolio extends Component {
                         <div style={{paddingTop: "30px"}} className="card-img-top">
                             <img src={`${process.env.PUBLIC_URL}/Code1.jpeg`} alt="Website"/>
                             <h3 style={{border: "none"}} className="card-header">Night Watch</h3>
-                            <p>A full CRUD website built using React and Django, and Django-Rest-Framework, with Celery, Twilio,
+                            <p>A full CRUD website built using React and Django, and Django-Rest-Framework, with Celery
+                                for automated tasks, Twilio for the text messages,
                                 and Skyfield API for calculating the rise and set times automatically.
                                 The idea is that people will sign up, and be be alerted to the various stellar events,
                                 like solar eclipses, or the rise time for your favorite planet or star. (My favorite
