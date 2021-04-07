@@ -3,7 +3,7 @@ import {Component} from "react";
 class Aside extends Component {
     render() {
         return (
-            <div className="col-2 text-center">
+            <div style={{border: '4px solid red'}} className="col-2 text-center">
                 <h2>Tech skills</h2>
                 <ul className="list-group">
                     <li style={{border: "none"}} className="list-group-item">HTML</li>
