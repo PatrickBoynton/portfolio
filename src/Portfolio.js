@@ -3,7 +3,7 @@ import {Component} from "react";
 class Portfolio extends Component {
     render() {
         return (
-            <div className="col-6">
+            <div className="col-9">
                 <div className="row">
                     <div className="card text-center mb-3">
                         <div className="card-img-top">
