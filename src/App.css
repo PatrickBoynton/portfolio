@@ -5,3 +5,7 @@ a{
     color: #fff;
     font-size: 20px;
 }
+a:hover{
+    color: #b7b5b5;
+    text-decoration: none;
+}
