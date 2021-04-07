@@ -13,4 +13,7 @@ img{
 .my-pic{
   width: 40%;
 }
+i {
+  border: none!important;
+}
 
