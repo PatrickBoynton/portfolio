@@ -17,3 +17,21 @@ a:hover{
     color: #fff;
     background-color: #312d2d;
 }
+.card-body{
+    position: absolute;
+    opacity: 0;
+}
+.card-body:hover{
+    opacity: 1;
+}
+.card-img {
+    position: relative;
+    height: 75%;
+}
+.card-img:hover{
+    opacity: 0.3;
+}
+
+@keyframes displayText {
+
+}
