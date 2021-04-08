@@ -1,8 +1,13 @@
 nav{
     background-color: #ad0202;
+    width: 100%;
 }
 a{
     color: #fff;
+    font-size: 1.5rem;
+}
+p{
+    font-size: 1.5rem;
 }
 a:hover{
     color: #b7b5b5;
