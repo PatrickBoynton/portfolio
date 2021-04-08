@@ -12,7 +12,6 @@ class Portfolio extends Component {
                             notifications via text to tell them when a planet star, or other celestial event is about to
                             happen. Tech used was Django, Celery (For automating texts and rise and set times), Skyfield
                             API (For calculating rise and set times) and React for the UI.</p>
-                        <a href="#" className="btn btn-primary">Night Watch</a>
                     </div>
                 </div>
 
@@ -24,7 +23,6 @@ class Portfolio extends Component {
                             users, and filtering by some sort of status. There was no external technology used, but the
                             challenge of filtering by different things and the user accounts made this memorable. It was
                             also my first experience with React Router.</p>
-                        <a href="#" className="btn btn-primary">Galaxy News</a>
                     </div>
                 </div>
 
@@ -35,7 +33,6 @@ class Portfolio extends Component {
                         <p className="card-text">The first really big project I did, it took quite awhile, and while it
                             may not be exactly pixel perfect, I think it looks good enough for using little more
                             than HTML and CSS. Every bit of this was copied as nearly as exactly as I could get the text.</p>
-                        <a href="#" className="btn btn-primary">Pixel Perfect</a>
                     </div>
                 </div>
             </div>
