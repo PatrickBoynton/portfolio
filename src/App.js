@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Resume from "./components/Resume";
 import Portfolio from "./components/Portfolio";
-import Footer from "./components/Footer";
+import Home from "./components/Home";
 import {Switch, Route} from "react-router-dom";
 
 class App extends Component {
@@ -15,9 +15,10 @@ class App extends Component {
                 <Switch>
                     <Route path="/works" component={Portfolio}/>
                     <Route path="/resume" component={Resume}/>
-                    <Route path="/" component={About}/>
+                    <Route path='/about' component={About}/>
+                    <Route path="/" component={Home}/>
                 </Switch>
-                <Footer/>
+                {/*<Footer/>*/}
             </>
         )
             ;
