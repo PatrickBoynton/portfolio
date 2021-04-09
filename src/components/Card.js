@@ -8,6 +8,10 @@ class Card extends Component{
                 <div className="card-body">
                     <h2 className="card-title">{this.props.title}</h2>
                     <p className="card-text">{this.props.text}</p>
+                    <div className="d-flex">
+                        <a className="card-icon" href={this.props.githubHref}><i className="fa fa-2x fa-github"/></a>
+                        <a className="card-icon" href={this.props.viewSite}><i className="fa fa-2x fa-eye"/></a>
+                    </div>
                 </div>
             </div>
         );
