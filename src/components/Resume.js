@@ -3,7 +3,7 @@ import {Component} from "react";
 class Resume extends Component {
     render() {
         return (
-            <div>
+            <section>
                 <h1>Education</h1>
                 <p>Associates in Science Greenville Technical College</p>
                 <p>Carolina Code School</p>
@@ -35,7 +35,7 @@ class Resume extends Component {
                     <li>Creative</li>
                     <li>Flexible</li>
                 </ul>
-            </div>
+            </section>
         );
     }
 }
