@@ -8,6 +8,8 @@ class Portfolio extends Component {
                 <Card image='/NW.png'
                       title='Night Watch'
                       alt='Night Watch'
+                      githubHref='https://github.com/PatrickBoynton/night_watch'
+                      viewSite='https://night-watch-jpb3.herokuapp.com/celestial-list'
                       text='Night Watch is an application where the user signs up and gets
                         notifications via text to tell them when a planet star, or other celestial event is about to
                         happen. Tech used was Django, Celery (For automating texts and rise and set times), Skyfield
@@ -19,14 +21,15 @@ class Portfolio extends Component {
                       text='Galaxy News is the first Django/React project I created using custom
                             users, and filtering by some sort of status. There was no external technology used, but the
                             challenge of filtering by different things and the user accounts made this memorable. It was
-                            also my first experience with React Router.'/>
+                            also my first experience with React Router. This was one of the final projects for Carolina Code School'/>
 
                 <Card image='/PixelPerfect.png'
                       alt='Pixel Perfect'
                       title='Pixel Perfect'
-                      text='The first really big project I did, it took quite awhile, and while it
-                            may not be exactly pixel perfect, I think it looks good enough for using little more
-                            than HTML and CSS. Every bit of this was copied as nearly as exactly as I could get the text.'/>
+                      text='Pixel Perfect was the first large project I did for Carolina Code School.
+                      The goal was to get it as close to the pdf as possible.
+                      You could if you wanted change the theme to whatever you wanted,
+                      but the original theme was travel blogs, and I like travel, so that was my theme.'/>
 
             </div>
         );
