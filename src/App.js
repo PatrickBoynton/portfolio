@@ -15,7 +15,7 @@ class App extends Component {
                 <Switch>
                     <Route path="/works" component={Portfolio}/>
                     <Route path="/resume" component={Resume}/>
-                    <Route path='/about' component={About}/>
+                    {/*<Route path='/about' component={About}/>*/}
                     <Route path="/" component={Home}/>
                 </Switch>
                 {/*<Footer/>*/}
