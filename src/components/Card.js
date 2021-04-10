@@ -3,11 +3,11 @@ import {Component} from 'react';
 class Card extends Component{
     render() {
         return (
-            <div className="card m-4 col-md-5 col-12">
-                <img src={`${process.env.PUBLIC_URL}${this.props.image}`} className="card-img-top card-img" alt={this.props.alt}/>
-                <div className="card-body">
-                    <h2 className="card-title">{this.props.title}</h2>
-                    <p className="card-text">{this.props.text}</p>
+            <div className="overlay-card">
+                <img className="image" src={`${process.env.PUBLIC_URL}${this.props.image}`} alt="A website"/>
+                <div className="overlay">
+                    <h2>{this.props.title}</h2>
+                    <p>{this.props.text}</p>
                     <div className="d-flex">
                         <a className="card-icon" href={this.props.githubHref}><i className="fa fa-2x fa-github"/></a>
                         <a className="card-icon" href={this.props.viewSite}><i className="fa fa-2x fa-eye"/></a>
