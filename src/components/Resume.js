@@ -8,9 +8,6 @@ class Resume extends Component {
                 <p>Associates in Science Greenville Technical College</p>
                 <p>Carolina Code School</p>
                 <h1>Tech Skills</h1>
-                <p>The progress bars don't have anything to do with how well I know something.</p>
-                <p>I programmed for a good while on my own before deciding I needed to go to a place like Carolina Code
-                    School to help get the education I felt I needed in regards to programming.</p>
                 <ul>
                     <li>HTML</li>
                     <li>CSS</li>
