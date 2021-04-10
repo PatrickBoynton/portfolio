@@ -1,7 +1,6 @@
 import "./App.css";
 import {Component} from "react";
 import Navbar from "./components/Navbar";
-import About from "./components/About";
 import Resume from "./components/Resume";
 import Portfolio from "./components/Portfolio";
 import Home from "./components/Home";
@@ -15,7 +14,7 @@ class App extends Component {
                 <Switch>
                     <Route path="/works" component={Portfolio}/>
                     <Route path="/resume" component={Resume}/>
-                    {/*<Route path='/about' component={About}/>*/}
+                    <Route path='/about' component={Home}/>
                     <Route path="/" component={Home}/>
                 </Switch>
                 {/*<Footer/>*/}
