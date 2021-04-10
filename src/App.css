@@ -62,7 +62,7 @@ a:hover {
     font-size: 50px;
     width: 100%;
     white-space: nowrap;
-    bottom: 60rem;
+    bottom: 38rem;
     animation: fadeInOut 4s ease-in;
     opacity: 0;
 }
@@ -73,7 +73,7 @@ a:hover {
     font-size: 50px;
     width: 100%;
     white-space: nowrap;
-    /*top: 7rem;*/
+    bottom: 47rem;
     animation: fadeInOut 4s ease-in;
     animation-delay: 4s;
     opacity: 0;
