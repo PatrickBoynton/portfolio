@@ -4,7 +4,7 @@ import Card from "./Card";
 class Portfolio extends Component {
     render() {
         return (
-            <div className="row align-baseline p-4 card-container" style={{height: "85vh"}}>
+            <div className="row align-baseline card-container" style={{height: "85vh"}}>
                 <Card image='/NW.png'
                       title='Night Watch'
                       alt='Night Watch'
@@ -16,11 +16,12 @@ class Portfolio extends Component {
                         There is also a filter/search because there are just some names I can't spell, and I assume others can't either.
                         This application also features full crud, a user can create their own events to be reminded of, whether that be an astronomy party, or some thing in the night sky not featured on my site.
                         Tech used was Django, Celery (For automating texts and rise and set times), Skyfield
-                        API (For calculating rise and set times) and React for the UI. This was my final project at Carolina Code School."/>
+                        API (For calculating rise and set times), Twilio for the text messages,  and React for the UI. This was my final project at Carolina Code School."/>
 
                 <Card image='/Code2.jpeg'
                       title='Galaxy News'
                       alt='Galaxy News'
+                      githubHref='https://github.com/PatrickBoynton/news-app/'
                       text='Galaxy News is the first Django/React project I created using custom
                             users, and filtering by some sort of status. There was no external technology used, but the
                             challenge of filtering by different things and the user accounts made this memorable.
@@ -33,6 +34,7 @@ class Portfolio extends Component {
                       title='Pixel Perfect'
                       text='Pixel Perfect was the first large project I did for Carolina Code School.
                       The goal was to get it as close to the pdf as possible.
+                      The tech used was plain HTML and CSS, with an app that you could check to see how closely you were to the actual design of the mockup.
                       You could if you wanted change the theme to whatever you wanted,
                       but the original theme was travel blogs, and I like travel, so that was my theme.'/>
 
