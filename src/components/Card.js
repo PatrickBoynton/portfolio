@@ -9,8 +9,8 @@ class Card extends Component{
                     <h2>{this.props.title}</h2>
                     <p>{this.props.text}</p>
                     <div className="d-flex">
-                        <a className="card-icon" href={this.props.githubHref}><i className="fa fa-2x fa-github"/></a>
-                        <a className="card-icon" href={this.props.viewSite}><i className="fa fa-2x fa-eye"/></a>
+                        <a style={{cursor: 'pointer'}} className="card-icon" href={this.props.githubHref}><i className="fa fa-2x fa-github"/></a>
+                        <a style={{cursor: 'pointer'}} className="card-icon" href={this.props.viewSite}><i className="fa fa-2x fa-eye"/></a>
                     </div>
                 </div>
             </div>
