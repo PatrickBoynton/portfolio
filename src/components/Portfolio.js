@@ -32,6 +32,8 @@ class Portfolio extends Component {
                 <Card image='/PixelPerfect.png'
                       alt='Pixel Perfect'
                       title='Pixel Perfect'
+                      githubHref='https://github.com/PatrickBoynton/pixel-perfect'
+                      viewSite='https://patrickboynton.github.io/pixel-perfect/'
                       text='Pixel Perfect was the first large project I did for Carolina Code School.
                       The goal was to get it as close to the pdf as possible.
                       The tech used was plain HTML and CSS, with an app that you could check to see how closely you were to the actual design of the mockup.
