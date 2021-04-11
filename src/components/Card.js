@@ -5,12 +5,24 @@ class Card extends Component{
         return (
             <div className="overlay-card">
                 <img className="image" src={`${process.env.PUBLIC_URL}${this.props.image}`} alt="A website"/>
-                <div className="overlay">
-                    <h2>{this.props.title}</h2>
-                    <p>{this.props.text}</p>
+                <div style={{padding: '2rem'}} className="overlay">
+                    <h2 style={{fontSize: '3.4rem'}}>{this.props.title}</h2>
+                    <p className="card-text">{this.props.text}</p>
                     <div className="d-flex">
-                        <a style={{cursor: 'pointer'}} className="card-icon" href={this.props.githubHref}><i className="fa fa-2x fa-github"/></a>
-                        <a style={{cursor: 'pointer'}} className="card-icon" href={this.props.viewSite}><i className="fa fa-2x fa-eye"/></a>
+                        {
+                            this.props.githubHref
+                            ?
+                                <a style={{cursor: 'pointer'}} className="card-icon" href={this.props.githubHref}><i className="fab fa-2x fa-github"/></a>
+                           :
+                           null
+                        }
+                        {
+                            this.props.viewSite
+                            ?
+                                <a style={{cursor: 'pointer'}} className="card-icon" href={this.props.viewSite}><i className="fa fa-2x fa-eye"/></a>
+                            :
+                            null
+                        }
                     </div>
                 </div>
             </div>
