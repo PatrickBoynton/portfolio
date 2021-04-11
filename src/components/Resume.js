@@ -6,13 +6,14 @@ class Resume extends Component {
             <section style={{margin: "2rem"}}>
                 <div className="m-auto text-center education">
                     <h1>Education</h1>
-                    <h2>Associates in Science Greenville Technical College</h2>
+                    <h2>Associates in Science</h2>
+                    <h3>Greenville Technical College</h3>
                     <p>This is regular science, as in geology and astronomy, not CS.</p>
                     <time style={{fontSize: "1.3rem"}}>Graduated March 2020</time>
-                    <h2>Carolina Code School</h2>
+                    <h2 className="mt-3">Carolina Code School</h2>
                     <time style={{fontSize: "1.3rem"}}>Dec 13 2020 - April 2nd 2021</time>
                 </div>
-                <div className="d-flex skills mt-4 justify-content-center">
+                <div className="d-flex skills mt-5 justify-content-center">
                     <div className="text-center">
                         <h1>Tech Skills</h1>
                         <ul style={{marginBottom: '3.5rem'}}>
