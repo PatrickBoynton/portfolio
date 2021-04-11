@@ -123,19 +123,28 @@ a:hover {
     animation-delay: 8s;
 }
 
-.overlay-card{
+.overlay-card {
     position: relative;
     max-width: 500px;
     margin: 20px;
 }
 
-.image{
+.image {
     display: block;
     width: 100%;
     height: auto;
 }
 
-.overlay{
+.education {
+    width: 30%;
+}
+
+li {
+    list-style: none;
+    font-size: 1.8rem;
+}
+
+.overlay {
     position: absolute;
     bottom: 0;
     background: rgba(0, 0, 0, 0.5);
@@ -143,12 +152,18 @@ a:hover {
     height: 100%;
     transition: .5s ease-in;
     opacity: 0;
-    font-size: 2rem;
 }
 
 .overlay-card:hover .overlay {
     opacity: 1;
 }
+
+.python {
+    background: linear-gradient(#30506f 50%, #E9C357 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 
 
 @keyframes fadeInOut {
@@ -166,10 +181,10 @@ a:hover {
 }
 
 @keyframes fadeIn {
-    0%{
+    0% {
         opacity: 0;
     }
-    100%{
+    100% {
         opacity: 1;
     }
 }
