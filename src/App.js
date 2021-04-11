@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Resume from "./components/Resume";
 import Portfolio from "./components/Portfolio";
 import Home from "./components/Home";
+import Footer from "./components/Footer";
 import {Switch, Route} from "react-router-dom";
 
 class App extends Component {
@@ -17,7 +18,7 @@ class App extends Component {
                     <Route path='/about' component={Home}/>
                     <Route path="/" component={Home}/>
                 </Switch>
-                {/*<Footer/>*/}
+                <Footer/>
             </>
         )
             ;
