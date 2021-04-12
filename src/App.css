@@ -167,6 +167,10 @@ li {
     -webkit-text-fill-color: transparent;
 }
 
+li > i{
+    padding: 1rem;
+}
+
 @keyframes fadeInOut {
     0% {
         opacity: 0
