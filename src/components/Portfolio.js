@@ -49,7 +49,7 @@ class Portfolio extends Component {
         />
 
         <Card
-          image="/Code4.jpeg"
+          image="/ColorClock.png"
           title="Color Clock"
           githubHref="https://github.com/PatrickBoynton/js-color-clock"
           viewSite="https://patrickboynton.github.io/js-color-clock/"
