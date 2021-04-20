@@ -163,7 +163,13 @@ li {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
+.tech-skills {
+  margin-right: 200px;
+  margin-left: 200px;
+}
+.skills {
+  margin-top: 50px;
+}
 li > i {
   padding: 1rem;
 }
