@@ -6,9 +6,9 @@ class Navbar extends Component {
         return (
             <nav className="p-3 position-fixed fixed-top">
                 <ul className="nav navbar-collapse justify-content-center">
-                    <li><NavLink exact to="/about">About</NavLink></li>
-                    <li className="pl-5"><NavLink to="/works">My Work</NavLink></li>
-                    <li className="pl-5"><NavLink to="/resume">Skills</NavLink></li>
+                    <li><NavLink style={{fontSize: '30px'}} exact to="/about">About</NavLink></li>
+                    <li className="pl-5"><NavLink style={{fontSize: '30px'}} to="/works">My Work</NavLink></li>
+                    <li className="pl-5"><NavLink style={{fontSize: '30px'}} to="/resume">Skills</NavLink></li>
                 </ul>
             </nav>
         );
