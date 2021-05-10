@@ -3,7 +3,7 @@ import {Component} from 'react';
 class Card extends Component{
     render() {
         return (
-            <div className="overlay-card">
+            <div className="overlay-card" style={{marginTop: '5rem'}}>
                 <img className="image" src={`${process.env.PUBLIC_URL}${this.props.image}`} alt="A website"/>
                 <div style={{padding: '2rem'}} className="overlay">
                     <h2 style={{fontSize: '3.4rem'}}>{this.props.title}</h2>
